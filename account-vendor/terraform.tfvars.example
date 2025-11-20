@@ -1,0 +1,15 @@
+# AWS Region
+aws_region = "ap-southeast-2"
+
+# Company Account ID (the account that owns the role to assume)
+company_account_id = "111111111111"
+
+# Company Role Name (role in company account to assume)
+company_role_name = "VendorAccessRole"
+
+# Company Role ARN (get this from account-company outputs after Step 1)
+# Format: arn:aws:iam::<company_account_id>:role/<company_role_name>
+company_role_arn = "arn:aws:iam::111111111111:role/VendorAccessRole"
+
+# Vendor Role Name (role in this account for automation)
+vendor_role_name = "VendorAutomationRole"

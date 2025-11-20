@@ -1,0 +1,17 @@
+# AWS Region
+aws_region = "ap-southeast-2"
+
+# Vendor Account ID (the account that will assume this role)
+vendor_account_id = "222222222222"
+
+# Company Role Name (role in this account that vendor can assume)
+company_role_name = "VendorAccessRole"
+
+# Vendor Role Name (role in vendor account that will assume company role)
+vendor_role_name = "VendorAutomationRole"
+
+# Optional: Custom S3 bucket name (leave empty for auto-generated)
+s3_bucket_name = ""
+
+# Enable S3 access for vendor role
+enable_s3_access = true
